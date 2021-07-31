@@ -31,7 +31,6 @@ def task1(n,m):
             f = True #Когда путь найден, задача выполнена
             break
         
-    print(A)
     print(S)
 
 
