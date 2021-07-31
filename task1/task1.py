@@ -31,7 +31,8 @@ def task1(n,m):
             f = True #Когда путь найден, задача выполнена
             break
         
-    print(S)
+    for item in S:
+        print(item, end = '')
 
 
 #Обработка ввода аргументов
