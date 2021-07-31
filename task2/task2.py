@@ -63,12 +63,7 @@ def circle_points(f1,f2):
             #Точка лежит вне окружности        
             if xp*xp + yp*yp > r*r:
                 print(2) 
-    
-                
-    print('------------------')     
-    print('0 - on the \n1 - inside \n2 - outside')
-    print('------------------') 
-    
+                      
 
 #Обработка ввода аргументов
 if len(sys.argv) != 3:
